@@ -1,6 +1,6 @@
 {
   "name": "master-electron",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Master Electron Course Code",
   "main": "main.js",
   "scripts": {
@@ -18,15 +18,18 @@
       "buildResources": "."
     },
     "mac":{
+      "publish":["github"],
       "category":"public.app-category.productivity",
       "target":"dmg"
     },
     "win":{
+      "publish":["github"],
       "certificateFile": "private/Electronify.pfx",
       "verifyUpdateCodeSignature": false,
       "publisherName":"Electronify"
     },
     "linux":{
+      "publish":["github"],
       "category": "Network"
     }
   },
