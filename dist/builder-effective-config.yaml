@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: .
+appId: coms.stackacademy.readit
+mac:
+  category: public.app-category.productivity
+  target: dmg
+win:
+  certificateFile: private/Electronify.pfx
+  verifyUpdateCodeSignature: false
+  publisherName: Electronify
+linux:
+  category: Network
+electronVersion: 5.0.0

@@ -1,0 +1,4 @@
+owner: stackacademytv
+repo: master-electron
+provider: github
+updaterCacheDirName: master-electron-updater
